@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package me.gaurav.meetextension.dto;
 
 public class AudioSummaryResponse {
 

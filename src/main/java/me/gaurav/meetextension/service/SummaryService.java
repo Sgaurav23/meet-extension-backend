@@ -1,12 +1,12 @@
-package com.example.demo.service;
+package me.gaurav.meetextension.service;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.example.demo.model.Summary;
-import com.example.demo.repository.SummaryRepository;
+import me.gaurav.meetextension.model.Summary;
+import me.gaurav.meetextension.repository.SummaryRepository;
 
 @Service 
 public class SummaryService {

@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package me.gaurav.meetextension.service;
 
 import java.util.Objects;
 
@@ -27,6 +27,11 @@ public class MeetingSummarizerService {
             Return only the transcript.
 
             Meeting Title: %s
+
+            Provide a structured response formatted in Markdown:
+            1. Executive Summary (2-3 sentences)
+            2. Key Decisions Made
+            3. Action Items & Assignees
             """.formatted(title);
         Media audioMedia = new Media(
             MimeType.valueOf(contentType),

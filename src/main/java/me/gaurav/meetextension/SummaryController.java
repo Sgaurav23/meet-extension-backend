@@ -1,10 +1,10 @@
-package com.example.demo;
+package me.gaurav.meetextension;
 
-import com.example.demo.dto.AudioSummaryResponse;
-import com.example.demo.dto.SummaryRequest;
-import com.example.demo.model.Summary;
-import com.example.demo.service.MeetingSummarizerService;
-import com.example.demo.service.SummaryService;
+import me.gaurav.meetextension.dto.AudioSummaryResponse;
+import me.gaurav.meetextension.dto.SummaryRequest;
+import me.gaurav.meetextension.model.Summary;
+import me.gaurav.meetextension.service.MeetingSummarizerService;
+import me.gaurav.meetextension.service.SummaryService;
 
 import java.io.IOException;
 import java.util.List;
